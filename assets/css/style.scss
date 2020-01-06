@@ -443,7 +443,7 @@ Navbar CSS
                     position: absolute;
                     top: 80px;
                     left: 0;
-                    width: 220px;
+                    width: 320px;
                     z-index: 99;
                     padding: 20px 0;
                     opacity: 0;
@@ -1944,6 +1944,44 @@ Main Banner CSS
 /*================================================
 About CSS
 =================================================*/
+.about-us-content{
+    p{
+        font-size:17px;
+    }
+}
+.team-container{
+    padding: 20px;
+    &.shade-1{
+        background: #77889926;
+    }
+    &.shade-2{
+        background: whitesmoke;
+    }
+    .user-picture{
+        padding: 0px 40px;
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+    }
+    .user-info{
+        color: #777;
+        .name{
+            font-size: 25px;
+            padding-bottom: 10px;
+            color: $template_color;
+        }
+        .title{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        .details{
+            font-weight: 300;
+            padding-right: 40px;
+        }
+    }
+}
 .about-content {
     .section-title {
         margin-bottom: 15px;
@@ -5701,6 +5739,15 @@ Page Title CSS
         }
     }
 }
+
+.company-title{
+    background: #45b3e9;
+    padding: {
+        top: 80px !important;
+        bottom: 80px !important;
+    }
+}
+
 
 /*=============================
 Pagination CSS
